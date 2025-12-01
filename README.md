@@ -34,3 +34,10 @@ For a list of all changes please click [here](CHANGELOG.md).
 - Fitbit example project [sdk-bart](https://github.com/Fitbit/sdk-bart)
 - Settings file transfer code from [fitbit-file-transfer-settings](https://github.com/KiezelPay/fitbit-file-transfer-settings)
 
+# Setup
+
+To build this for the old Versa 2, you first need to:
+- `npx create-fitbit-app tmp --sdk-version 4.3.0`
+- `cp tmp/node_modules fitbit-authenticator`
+- `cd fitbit-authenticator && npx fitbit`
+More details: [Getting Started](https://dev.fitbit.com/getting-started/)
