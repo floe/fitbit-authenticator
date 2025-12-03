@@ -18,6 +18,7 @@ export function AuthToken() {
 AuthToken.prototype.convertTokensToUint8Array = function() {
   let changed = false;
   for (let i in this.file.data) {
+    if (typeof this.file.data[i] == "undefined") continue;
     if (typeof this.file.data[i]["token"] == "string") {
       this.file.data[i]["token"] = base32ToUint8Array(this.file.data[i]["token"]);
       changed = true;
