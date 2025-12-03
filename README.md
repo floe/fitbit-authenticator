@@ -37,7 +37,10 @@ For a list of all changes please click [here](CHANGELOG.md).
 # Setup
 
 To build this for the old Versa 2, you first need to:
+
 - `npx create-fitbit-app tmp --sdk-version 4.3.0`
 - `cp tmp/node_modules fitbit-authenticator`
 - `cd fitbit-authenticator && npx fitbit`
-More details: [Getting Started](https://dev.fitbit.com/getting-started/)
+- `build-and-install`
+
+More details: [FitBit SDK Getting Started](https://dev.fitbit.com/getting-started/)
