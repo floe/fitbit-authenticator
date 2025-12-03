@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import fs from "fs";
 import {FILE_NAME} from "../common/globals.js";
 import {base32ToUint8Array} from "../common/util.js";
 

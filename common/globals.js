@@ -1,5 +1,5 @@
 export const TOKEN_LIST = "token_list"; //displayed in settings
-export const FILE_NAME = "tokens.json"; //internal token storage
+export const FILE_NAME = "tokens.cbor"; //internal token storage
 export const TOKEN_SECRETS = "token_secrets"; //stored internally (old)
 export const TOKEN_NUM = 10;
 
